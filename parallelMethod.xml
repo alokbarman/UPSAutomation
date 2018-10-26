@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel Method Test" parallel="methods" thread-count="3">
+  <test name="Parallel Test">
+    <classes>
+      <class name="com.talentech.testngpractice.ParallelMethodTest"/>
+      <class name="com.talentech.testngpractice.ParallelMethodTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

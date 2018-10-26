@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Crossbrowser Suite" >
+
+  	<test name="ChromeTest">
+	<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="testngexample1.MyFirstTest">  <!--//packagename.testclass name -->
+			
+			</class>
+			  <!--//packagename.testclass name -->
+			<class name="testngexample1.MyFirstTest2">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="FirefoxTest">
+	<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="testngexample1.MyFirstTest"> <!--//packagename.testclass name -->
+			</class>
+		</classes>
+	</test>
+
+	<test name="IETest">
+	<parameter name="browser" value="IE" />
+		<classes>
+			<class name="testngexample1.MyFirstTest">  <!--//packagename.testclass name -->
+			</class>
+		</classes>
+	</test>
+
+</suite>
